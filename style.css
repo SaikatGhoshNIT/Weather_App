@@ -3,6 +3,8 @@
     margin: 0;
     border: none;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 body{
@@ -53,4 +55,39 @@ body{
 .search_icon{
     width: 30px;
     height: 30px;
+}
+
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather h1{
+    font-size: 150px;
+    font-weight: 500;
+}
+
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 50px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
 }
