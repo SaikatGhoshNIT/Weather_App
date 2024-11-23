@@ -96,3 +96,15 @@ body{
     font-size: 20px;
     margin-top: -6px;
 }
+
+.Weather{
+    display: none;
+}
+
+.error{
+    display: none;
+    padding: 5px;
+    margin-top: 12px;
+    border-radius: 20px;
+    background: rgb(241, 130, 130);
+}
