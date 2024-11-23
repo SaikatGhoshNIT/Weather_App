@@ -62,12 +62,12 @@ body{
     margin-top: 30px;
 }
 
-.weather h1{
-    font-size: 150px;
+h1{
+    font-size: 100px;
     font-weight: 500;
 }
 
-.weather h2{
+h2{
     font-size: 45px;
     font-weight: 400;
     margin-top: -10px;
@@ -107,4 +107,38 @@ body{
     margin-top: 12px;
     border-radius: 20px;
     background: rgb(241, 130, 130);
+}
+
+@media (500px >= width){
+    .card{
+        width: 100%;
+        max-width: 370px;
+        height: auto;
+    }
+    .search input{
+        width: 70%;
+        margin-right: 10px;
+    }
+    .search button{
+        display: block;
+    }
+    .weather-icon{
+        width: 120px;
+        margin-top: 30px;
+    }
+    h1{
+        margin-top: 10PX;
+        font-size: 70PX;
+    }
+    h2{
+        font-size: 30px;
+        padding-top: 8px;
+    }
+    .details{
+        padding: 0px;
+    }
+    .col img{
+        width: 30px;
+        margin-right: 6px;
+    }
 }
