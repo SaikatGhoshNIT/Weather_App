@@ -120,7 +120,7 @@ h2{
         margin-right: 10px;
     }
     .search button{
-        display: block;
+        display: none;
     }
     .weather-icon{
         width: 120px;

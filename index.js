@@ -47,9 +47,19 @@ async function weatherReport(cityName) {
 }
 }
 
+//if(window.innerWidth <= 500 ){
+    city.addEventListener('keypress', function (e) {
+        if (e.key === 'Enter') {
+          e.preventDefault(); // Prevent the default form submission
+          weatherReport(city.value); // Submit the form programmatically
+          city.value = '';
+        }
+      });
+//    }
+//else{
 btn.addEventListener('click', ()=>{
     weatherReport(city.value);
     //console.log(city.value);
     city.value = ''
 })
-
+//}
